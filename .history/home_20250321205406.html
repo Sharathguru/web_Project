@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="home.css">
-  <title>Anyar | Home</title>
+  <title>Document</title>
 </head>
 <body>
   <header>
@@ -14,17 +14,17 @@
         <h2>ANYAR</h2>
       </div>
       <div id="nav-heading2">
-        <a href="home.html">Home</a>
-        <a href="About.html">About</a>
-        <a href="Service.html">Services</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Team</a>
-        <select>
-          <option class="drop1">DropDown</option>
-          <option class="drop1">Value 2</option>
-          <option class="drop1">Value 3</option>
-        </select>
-      
+          <a href="home.html">Home</a>
+          <a href="About.html">About</a>
+          <a href="Service.html">Services</a>
+          <a href="#">Profolio</a>
+          <a href="#">Team</a>
+          <select>
+            <option value="" class="drop1">DropDown</option>
+            <option value="" class="drop1">value2</option>
+            <option value="" class="drop1">value3</option>
+          </select>
+          <a href="h">Contact</a>
       </div>
       <div id="nav-heading3">
         <i class="fa-brands fa-x-twitter"></i>
@@ -37,8 +37,8 @@
 
     <nav>
       <div id="nav-content">
-        <h1>Welcome to Anyar</h1>
-        <p>Occaecati aliquam et in ut omnis. Blanditiis praesentium aliquam illum tempore incidunt debitis dolorem magni est deserunt sed qui libero. Qui voluptas amet.</p>
+        <h1>Welcome to Anyar Occaecati aliquam et in ut omnis</h1>
+        <p>Blanditiis praesentium aliquam illum tempore incidunt debitis dolorem magni est deserunt sed qui libero. Qui voluptas amet.</p>
         <button>Get Started</button>
       </div>
     </nav>
@@ -46,7 +46,12 @@
 
   <script>
     document.getElementById('menu-bar').addEventListener('click', function() {
-      document.getElementById('nav-heading2').classList.toggle('mobile-menu');
+      var navHeading2 = document.getElementById('nav-heading2');
+      if (navHeading2.classList.contains('mobile-menu')) {
+        navHeading2.classList.remove('mobile-menu');
+      } else {
+        navHeading2.classList.add('mobile-menu');
+      }
     });
   </script>
 </body>

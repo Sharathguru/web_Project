@@ -561,9 +561,8 @@ textarea {
     }
     .info-item:nth-child(1) p
     {
-        position: relative;
-        /* right: 0px; */
-        text-align: justify;
+        /* position: relative;
+        right: 10px; */
     }
     .info-item:nth-child(2) p,
     .info-item:nth-child(3) p

@@ -543,6 +543,8 @@ textarea {
     }
 
     .info-item {
+        position: relative;
+        right: 40px;
         justify-content: center;
     }
 
@@ -562,8 +564,7 @@ textarea {
     .info-item:nth-child(1) p
     {
         position: relative;
-        /* right: 0px; */
-        text-align: justify;
+        right: 10px;
     }
     .info-item:nth-child(2) p,
     .info-item:nth-child(3) p
