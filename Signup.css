@@ -1,0 +1,25 @@
+/* body
+{
+    background: linear-gradient(90deg,yellow,red)
+}
+#form-container
+{
+    width: 330px;
+    height: 400px;
+    box-shadow: 7px 10px 30px white ;
+    background-color: white;
+    border-radius: 10%;
+}
+#header
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+}
+#form-container h1
+{
+    padding-top: 10px;
+display: flex;
+justify-content: center;
+} */
